@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Airwaves-Oblique';
+  src: url('./assets/fonts/Airwaves-Oblique.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 200;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100vw;
+  height: 100vh;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --brand-font: 'Airwaves-Oblique', sans-serif;
+
+  --primary-color: #339dd0
+  ;
+  --secondary-color: #53575e
+  ;
+
+  --background-light: #f5f5f5;
+  --background-dark: #242424;
+
+  --text-light: #ffffff;
+  --text-dark: #333333;
+}
+
